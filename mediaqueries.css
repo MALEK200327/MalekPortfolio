@@ -100,4 +100,14 @@
     .text-container {
       text-align: justify;
     }
+
+    .details-container {
+      flex: 1 1 calc(50% - 2rem); /* Change to two columns on mobile */
+      max-width: calc(50% - 2rem); /* Adjust max width for two columns */
+    }
+
+    .details-container .article-container article h3,
+    .details-container .article-container article p {
+      font-size: 0.85rem; /* Smaller font size for very small screens */
+    }
   }
